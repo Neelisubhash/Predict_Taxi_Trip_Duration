@@ -47,7 +47,8 @@ The main objective is to build a predictive model using the features provided in
    
 6. **Hyperparameter Tuning**: Specifically tuned the **HistGradientBoostingRegressor** for better results, fine-tuning its hyperparameters to improve predictive accuracy and overall performance.
    
-**Conclusions**: Summarized the model performance, key insights.
+## Conclusions : 
+**Summarized the model performance, key insights.**
 Distance calculated using the haversine function plays an important role in predicting the trip durations.
 
 Rest of the features showed moderate to very little linear correlation with the dependent variable.
