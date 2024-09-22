@@ -47,4 +47,14 @@ The main objective is to build a predictive model using the features provided in
    
 6. **Hyperparameter Tuning**: Specifically tuned the **HistGradientBoostingRegressor** for better results, fine-tuning its hyperparameters to improve predictive accuracy and overall performance.
    
-7. **Conclusions**: Summarized the model performance, key insights, and possible improvements for future work.
+**Conclusions**: Summarized the model performance, key insights.
+Distance calculated using the haversine function plays an important role in predicting the trip durations.
+
+Rest of the features showed moderate to very little linear correlation with the dependent variable.
+
+Before HyperParameter Tuning,The XG Boost Regressor appears to be the best model based on both the highest Test R² Score and the lowest Test RMSE Score.
+
+The untuned model of Hist Gradient Boosting Regressor was able to explain 68% of the variance on the test set, while the tuned model explained 74% of variance on the test set which is a good improvement.
+
+The least RMSE on test set by the Hist Gradient Boosting Regressor was 3.367436 which is comparatively lower when compared with rest of the models.
+
